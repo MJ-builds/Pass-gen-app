@@ -28,10 +28,11 @@ export default function CharacterLengthSlider() {
     <div className="mb-6">
       <label
         htmlFor="character-length"
-        className="text-sm font-medium -mt-5 mb-5 flex items-center justify-between"
+        className="text-base font-medium -mt-5 mb-5 flex items-center justify-between"
       >
-        Character length{" "}
-        <div className="text-green font-bold text-xl">{length}</div>
+        Character Length
+        {" "}
+        <div className="text-green font-bold text-2xl">{length}</div>
       </label>
       <input
         ref={sliderRef}

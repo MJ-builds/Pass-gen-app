@@ -61,7 +61,7 @@ export default function PasswordStrengthMeter() {
 
   return (
     <div className="mb-6">
-      <div className="mb-2">
+      <div className="relative mb-2">
         <div className="text-lightgrey text-m font-normal">
           <div className="bg-darkgrey p-4">
             <div className="flex items-center justify-between">

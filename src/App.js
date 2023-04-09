@@ -16,7 +16,7 @@ function App() {
       <div className="MAIN-DIV bg-darkgrey font-jbmono_normal font-light tracking-normal text-lightgrey">
         <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
           <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-            <h1 className="HEADER font-bold text-center mb-5 text-grey text-lg tracking-wider">
+            <h1 className="HEADER font-normal text-center mb-5 text-grey text-xl tracking-wider">
               Password Generator
             </h1>
             <div className="PASS-CONT font-bold mb-5 bg-semidarkgrey flex items-center justify-between min-w-[20rem] sm:min-w-[25rem] md:min-w-[30rem]">

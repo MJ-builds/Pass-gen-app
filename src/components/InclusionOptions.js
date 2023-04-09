@@ -12,7 +12,7 @@ export default function InclusionOptions() {
   };
 
   return (
-    <div className="custom-checkbox mb-6 font-jbmono_normal font-light tracking-normal text-gray-700">
+    <div className="custom-checkbox mb-6 font-jbmono_normal font-light tracking-normal">
       <div className=" flex items-center mb-2">
         <input
           type="checkbox"
@@ -49,7 +49,7 @@ export default function InclusionOptions() {
           Include Numbers
         </label>
       </div>
-      <div className="flex items-center mb-2">
+      <div className=" items-center mb-2">
         <input
           type="checkbox"
           id="includeSymbols"

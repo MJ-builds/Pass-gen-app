@@ -7,6 +7,9 @@ import PasswordStrengthMeter from "./components/PasswordStrengthMeter";
 import InclusionOptions from "./components/InclusionOptions";
 import GeneratedPass from "./components/GeneratedPass";
 
+import "./custom.css";
+
+
 function App() {
   return (
     <PasswordProvider>

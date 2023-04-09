@@ -12,9 +12,9 @@ export default function CharacterLengthSlider() {
 
   return (
     <div className="mb-6">
-      <label htmlFor="character-length" className="block text-sm font-medium text-gray-700 mb-1">Character length: {length}</label>
+      <label htmlFor="character-length" className="text-sm font-medium -mt-5 mb-5 flex items-center justify-between">Character length <div className='text-green font-bold text-xl'>{length}</div></label>
       <input
-      className="w-full h-2 bg-gray-300 rounded-lg focus:bg-gray-400 cursor-pointer"
+      className="w-full h-2 cursor-pointer "
         type="range"
         id="character-length"
         name="character-length"

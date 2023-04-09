@@ -14,6 +14,7 @@ module.exports = {
       'semidarkgrey': '#24232C',
       'darkgrey' : '#18171F',
       'green': '#A4FFAF',
+      'grey': '#817D92',
       'lightgrey' : '#E6E5EA',
     }
   },

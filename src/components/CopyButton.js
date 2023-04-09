@@ -22,7 +22,7 @@ export default function CopyButton() {
     ref={buttonRef} 
     data-clipboard-text={password}
     onClick={() => {
-      setSvgColor('#817D92  ');
+      setSvgColor('#817D92');
       setTimeout(() => {
         setSvgColor('#A4FFAF');
       }, 150);

@@ -12,8 +12,8 @@ export default function InclusionOptions() {
   };
 
   return (
-    <div className="mb-6 font-jbmono_normal font-light tracking-normal text-gray-700">
-      <div className="flex items-center mb-2">
+    <div className="custom-checkbox mb-6 font-jbmono_normal font-light tracking-normal text-gray-700">
+      <div className=" flex items-center mb-2">
         <input
           type="checkbox"
           id="includeUppercase"
@@ -21,7 +21,7 @@ export default function InclusionOptions() {
           checked={options.includeUppercase}
           onChange={handleOptionChange}
         />
-        <label htmlFor="includeUppercase" className="ml-2 ">
+        <label htmlFor="includeUppercase">
           Include Uppercase Letters
         </label>
       </div>
@@ -33,7 +33,7 @@ export default function InclusionOptions() {
           checked={options.includeLowercase}
           onChange={handleOptionChange}
         />
-<label htmlFor="includeLowercase" className="ml-2">
+<label htmlFor="includeLowercase">
           Include Lowercase Letters
         </label>
       </div>
@@ -45,7 +45,7 @@ export default function InclusionOptions() {
           checked={options.includeNumbers}
           onChange={handleOptionChange}
         />
-<label htmlFor="includeNumbers" className="ml-2">
+<label htmlFor="includeNumbers">
           Include Numbers
         </label>
       </div>
@@ -57,7 +57,7 @@ export default function InclusionOptions() {
           checked={options.includeSymbols}
           onChange={handleOptionChange}
         />
-        <label htmlFor="includeSymbols" className="ml-2">
+        <label htmlFor="includeSymbols">
           Include Symbols
         </label>
       </div>

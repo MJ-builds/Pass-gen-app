@@ -6,7 +6,7 @@ export default function GeneratedPass() {
 
   return (
     <div>
-      <div className="p-4 rounded-lg">
+      <div className="p-4 ">
         <p className="text-xl">{password}</p>
       </div>
     </div>

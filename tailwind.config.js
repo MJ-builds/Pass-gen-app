@@ -3,13 +3,18 @@ module.exports = {
   mode: 'jit',
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'jbmono_normal': ['JetBrains Mono', 'sans-serif'],
+      }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'theme_bg': '#24232C',
-      'button_green': '#A4FFAF',
-      'slider_bg': '#18171F',
+      'semidarkgrey': '#24232C',
+      'darkgrey' : '#18171F',
+      'green': '#A4FFAF',
+      'lightgrey' : '#E6E5EA',
     }
   },
   plugins: [],

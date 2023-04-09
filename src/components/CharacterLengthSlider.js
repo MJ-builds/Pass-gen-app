@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { PasswordContext } from '../context/PasswordContext';
 
-function CharacterLengthSlider() {
+export default function CharacterLengthSlider() {
   const { length, setLength, options, generateRandomPassword } = useContext(PasswordContext);
 
   const handleLengthChange = (event) => {
@@ -26,5 +26,3 @@ function CharacterLengthSlider() {
     </div>
   );
 }
-
-export default CharacterLengthSlider;

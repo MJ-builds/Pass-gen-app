@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useContext } from 'react';
 import { PasswordContext } from '../context/PasswordContext';
 import ClipboardJS from 'clipboard';
 
-function CopyButton() {
+export default function CopyButton() {
   const buttonRef = useRef(null);
   const { password } = useContext(PasswordContext);
 
@@ -24,4 +24,3 @@ function CopyButton() {
   );
 }
 
-export default CopyButton;

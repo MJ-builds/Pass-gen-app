@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import { PasswordContext } from '../context/PasswordContext';
 import zxcvbn from 'zxcvbn';
 
-function PasswordStrengthMeter() {
+export default function PasswordStrengthMeter() {
   const { password } = useContext(PasswordContext);
 
   const passwordStrength = zxcvbn(password);
@@ -26,16 +26,15 @@ function PasswordStrengthMeter() {
 
 return (
     <div className="mb-6">
-      <div className="bg-gray-200 p-4 rounded-lg">
-        <p className="text-gray-700 font-mono">{password}</p>
+  {/* <div className="bg-gray-200 p-4 rounded-lg">
+<p className="text-gray-700 font-mono">{password}</p> */}
        
         <p className = "mb-2"></p>
-        <p className="text-gray-700 font-bold text-center">
+        <p className="text-gray-700 font-bold">
           Password strength: {getStrengthLabel(score)} ({score} / 4)
         </p>
-      </div>
-    </div>
+   </div>
+
   );
 };
 
-export default PasswordStrengthMeter;

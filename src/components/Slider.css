@@ -1,0 +1,33 @@
+/* Slider.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+/* Slider line */
+.slider::-webkit-slider-runnable-track {
+    @apply bg-green-400;
+  }
+  
+  .slider::-moz-range-track {
+    @apply bg-green-400;
+  }
+  
+  .slider::-ms-track {
+    @apply bg-green-400;
+  }
+  
+  /* Slider handle */
+  .slider::-webkit-slider-thumb {
+    @apply bg-blue-500 h-4 w-4 rounded-full appearance-none;
+  }
+  
+  .slider::-moz-range-thumb {
+    @apply bg-blue-500 h-4 w-4 rounded-full;
+  }
+  
+  .slider::-ms-thumb {
+    @apply bg-blue-500 h-4 w-4 rounded-full;
+  }
+}
+  

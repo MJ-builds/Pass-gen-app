@@ -6,6 +6,7 @@ import CopyButton from "./components/CopyButton";
 import PasswordStrengthMeter from "./components/PasswordStrengthMeter";
 import InclusionOptions from "./components/InclusionOptions";
 import GeneratedPass from "./components/GeneratedPass";
+import GeneratePasswordButton from "./components/GeneratePasswordButton";
 
 import "./custom.css";
 
@@ -30,6 +31,7 @@ function App() {
               <CharacterLengthSlider/>
               <InclusionOptions/>
               <PasswordStrengthMeter />
+              <GeneratePasswordButton />
               </div>
               
             </div>

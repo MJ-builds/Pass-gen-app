@@ -6,6 +6,8 @@ I didn't use any of the starter code from the challenge. I built it from scratch
 
 As noted, this was my first attempt with Tailwind CSS, so it's a little messy. Will refactor in future.
 
+PS: App looks great on mobile (& responsive).
+
 The usual:
 
 # Getting Started with Create React App

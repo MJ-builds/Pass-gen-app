@@ -19,7 +19,7 @@ function App() {
             <h1 className="HEADER font-normal text-center mb-5 text-grey text-xl tracking-wider">
               Password Generator
             </h1>
-            <div className="PASS-CONT font-bold mb-5 bg-semidarkgrey flex items-center justify-between min-w-[20rem] sm:min-w-[25rem] md:min-w-[30rem]">
+            <div className="PASS-CONT font-bold mb-5 bg-semidarkgrey flex items-center justify-between min-w-[20rem] sm:min-w-[25rem] md:min-w-[30rem] min-h-[4rem]">
               <GeneratedPass />
               <div>
                 <CopyButton />

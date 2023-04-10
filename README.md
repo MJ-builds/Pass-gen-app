@@ -4,7 +4,7 @@ I built this with React & Tailwind CSS, as part of a Frontend Mentor challenge.
 
 I built it from scratch, and I'm happy with the result - I enjoyed getting stuck into React Context API, and using Tailwind CSS for the first time.
 
-As noted, this was my first attempt with Tailwind CSS, so it's a little messy. Will refactor in future.
+As noted, this was my first attempt with Tailwind CSS, so it's a little messy. I will look to refactor in future, once I am more proficient with it.
 
 PS: App looks great on mobile.
 

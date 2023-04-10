@@ -1,6 +1,6 @@
 # Fully functional Password Generator
 
-I built this with React & Tailwind CSS, as part of a Frontend Masters challenge. 
+I built this with React & Tailwind CSS, as part of a Frontend Mentor challenge. 
 
 I didn't use any of the starter code from the challenge. I built it from scratch, and I'm happy with the result - I enjoyed getting stuck into React Context API, and using Tailwind CSS for the first time.
 

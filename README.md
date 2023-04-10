@@ -1,4 +1,4 @@
-# Fully functional Password Generator
+# Fully Functional & Responsive Password Generator
 
 I built this with React & Tailwind CSS, as part of a Frontend Mentor challenge. 
 

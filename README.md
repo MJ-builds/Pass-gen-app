@@ -8,7 +8,13 @@ As noted, this was my first attempt with Tailwind CSS, so it's a little messy. I
 
 PS: App looks great on mobile.
 
+## Notes regarding the project: 
 
+- Generator starts with all options ticked and character length default of 8. This is a generator after all, so it's good to start with a minimum length + options.
+- Any option or character length changes automatically generate a new pass (without button-click). Button can also generate a new pass however.
+- I couldn't tell whether the brief wanted hover or click color changes to the button & copy SVG (icon) so I went the lengthier route (click changes) by created custom functions and using the useEffect hook.
+- Added custom placeholder
+- All other functionality works as expected
 
 
 The usual:

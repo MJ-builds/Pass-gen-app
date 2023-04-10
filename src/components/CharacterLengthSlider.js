@@ -42,7 +42,7 @@ export default function CharacterLengthSlider() {
         type="range"
         id="character-length"
         name="character-length"
-        min="1"
+        min="0"
         max="24"
         value={length}
         onChange={handleLengthChange}

@@ -27,7 +27,7 @@ export default function PasswordStrengthMeter() {
   const getStrengthIcons = (score) => {
     const icons = [];
     const hollowColor = "bg-darkgrey";
-  
+
     const getColor = (index) => {
       if (index < score) {
         switch (score) {
@@ -46,18 +46,19 @@ export default function PasswordStrengthMeter() {
         return hollowColor;
       }
     };
-  
+
     for (let i = 0; i < 4; i++) {
       icons.push(
         <div
           key={i}
-          className={`w-2 h-6 mx-1 border-lightgrey border-custom  ${getColor(i)}`}
+          className={`w-2 h-6 mx-1 border-lightgrey border-custom  ${getColor(
+            i
+          )}`}
         ></div>
       );
     }
     return icons;
   };
-  
 
   return (
     <div className="mb-6">

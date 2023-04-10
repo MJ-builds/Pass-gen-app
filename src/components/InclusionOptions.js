@@ -21,9 +21,7 @@ export default function InclusionOptions() {
           checked={options.includeUppercase}
           onChange={handleOptionChange}
         />
-        <label htmlFor="includeUppercase">
-          Include Uppercase Letters
-        </label>
+        <label htmlFor="includeUppercase">Include Uppercase Letters</label>
       </div>
       <div className="flex items-center mb-2">
         <input
@@ -33,9 +31,7 @@ export default function InclusionOptions() {
           checked={options.includeLowercase}
           onChange={handleOptionChange}
         />
-<label htmlFor="includeLowercase">
-          Include Lowercase Letters
-        </label>
+        <label htmlFor="includeLowercase">Include Lowercase Letters</label>
       </div>
       <div className="flex items-center mb-2">
         <input
@@ -45,9 +41,7 @@ export default function InclusionOptions() {
           checked={options.includeNumbers}
           onChange={handleOptionChange}
         />
-<label htmlFor="includeNumbers">
-          Include Numbers
-        </label>
+        <label htmlFor="includeNumbers">Include Numbers</label>
       </div>
       <div className=" items-center mb-2">
         <input
@@ -57,11 +51,8 @@ export default function InclusionOptions() {
           checked={options.includeSymbols}
           onChange={handleOptionChange}
         />
-        <label htmlFor="includeSymbols">
-          Include Symbols
-        </label>
+        <label htmlFor="includeSymbols">Include Symbols</label>
       </div>
     </div>
   );
 }
-

@@ -10,7 +10,6 @@ import GeneratePasswordButton from "./components/GeneratePasswordButton";
 
 import "./custom.css";
 
-
 function App() {
   return (
     <PasswordProvider>
@@ -27,13 +26,12 @@ function App() {
               </div>
             </div>
             <div className="CONTAINER bg-semidarkgrey min-w-[20rem] sm:min-w-[25rem] md:min-w-[30rem]">
-            <div className="px-10 py-10">
-              <CharacterLengthSlider/>
-              <InclusionOptions/>
-              <PasswordStrengthMeter />
-              <GeneratePasswordButton />
+              <div className="px-10 py-10">
+                <CharacterLengthSlider />
+                <InclusionOptions />
+                <PasswordStrengthMeter />
+                <GeneratePasswordButton />
               </div>
-              
             </div>
           </div>
         </div>

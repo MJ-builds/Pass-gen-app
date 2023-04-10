@@ -1,9 +1,9 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState, useEffect } from "react";
 
 export const PasswordContext = createContext();
 
 export const PasswordProvider = ({ children }) => {
-  const [password, setPassword] = useState('');
+  const [password, setPassword] = useState("");
   const [length, setLength] = useState(8); // Default length
   const [options, setOptions] = useState({
     includeUppercase: true,
@@ -13,21 +13,23 @@ export const PasswordProvider = ({ children }) => {
   });
 
   const generateRandomPassword = (length, options) => {
-    const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    const lowercase = 'abcdefghijklmnopqrstuvwxyz';
-    const numbers = '0123456789';
-    const symbols = '!@#$%^&*()_+-=[]{}|;:,./<>?';
+    const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const lowercase = "abcdefghijklmnopqrstuvwxyz";
+    const numbers = "0123456789";
+    const symbols = "!@#$%^&*()_+-=[]{}|;:,./<>?";
 
-    let characters = '';
+    let characters = "";
     if (options.includeUppercase) characters += uppercase;
     if (options.includeLowercase) characters += lowercase;
     if (options.includeNumbers) characters += numbers;
     if (options.includeSymbols) characters += symbols;
 
-    let result = '';
+    let result = "";
 
     for (let i = 0; i < length; i++) {
-      result += characters.charAt(Math.floor(Math.random() * characters.length));
+      result += characters.charAt(
+        Math.floor(Math.random() * characters.length)
+      );
     }
 
     setPassword(result);
@@ -38,7 +40,17 @@ export const PasswordProvider = ({ children }) => {
   }, []); // Pass an empty dependency array to run this effect only on mount
 
   return (
-    <PasswordContext.Provider value={{ password, setPassword, length, setLength, options, setOptions, generateRandomPassword }}>
+    <PasswordContext.Provider
+      value={{
+        password,
+        setPassword,
+        length,
+        setLength,
+        options,
+        setOptions,
+        generateRandomPassword,
+      }}
+    >
       {children}
     </PasswordContext.Provider>
   );

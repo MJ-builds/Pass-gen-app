@@ -91,3 +91,14 @@ input[type="range"] {
     border-radius: 50%; 
     cursor: pointer; 
   }
+
+  input[type="range"]:active::-webkit-slider-thumb {
+    background-color: #18171F;
+    border: 1px solid #A4FFAF;
+  }
+  
+  input[type="range"]:active::-moz-range-thumb {
+    background-color: #18171F;
+    border: 1px solid #A4FFAF;
+    
+  }

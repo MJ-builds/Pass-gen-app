@@ -1,5 +1,7 @@
 # Fully Functional & Responsive Password Generator
 
+Check it deployed here: https://pass-gen-app.vercel.app/
+
 I built this app with React & Tailwind CSS, as part of a Frontend Mentor challenge (as practice only). 
 
 I built it from scratch, and I'm happy with the result - I enjoyed getting stuck into React Context API, and using Tailwind CSS for the first time.
